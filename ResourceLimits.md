@@ -13,13 +13,13 @@ The following limits apply to all competition participants:
     - 2 vCPU, 8 GiB memory
     - Better for memory-intensive tasks
   - ml.p3.2xlarge ($3.825/hour)
-    - 8 vCPU, 61 GiB memory, 1 NVIDIA V100 GPU
+    - 8 vCPU, 61 GiB memory, 1 NVIDIA V100 GPU (16GB GPU RAM)
     - Best for deep learning training
   - ml.p3.8xlarge ($14.688/hour)
-    - 32 vCPU, 244 GiB memory, 4 NVIDIA V100 GPUs
+    - 32 vCPU, 244 GiB memory, 4 NVIDIA V100 GPUs (64GB total GPU RAM)
     - For large-scale training
   - ml.g4dn.2xlarge ($0.94/hour)
-    - 8 vCPU, 32 GiB memory, 1 NVIDIA T4 GPU
+    - 8 vCPU, 32 GiB memory, 1 NVIDIA T4 GPU (16GB GPU RAM)
     - Good balance of CPU/GPU for mixed workloads
 
 Note: Spot instances are available at up to 70% discount from these prices.
