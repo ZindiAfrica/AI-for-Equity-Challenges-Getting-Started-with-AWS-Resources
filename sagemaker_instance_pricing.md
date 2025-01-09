@@ -39,7 +39,7 @@ All prices are in USD per hour for the US East (Ohio) region.
 
 | Instance Type    | vCPUs | Memory (GiB) | GPUs | GPU Memory | Price/Hour |
 |-----------------|-------|--------------|------|------------|------------|
-| ml.g6.24xlarge  | 96    | 384         | 4    | 96 GB      | $7.344     |
+| ml.g6.24xlarge  | 96    | 384         | 4    | 96 GB      | $6.6752    |
 
 ## GPU Instances (P3)
 
