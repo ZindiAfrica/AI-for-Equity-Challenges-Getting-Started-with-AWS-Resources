@@ -35,6 +35,12 @@ All prices are in USD per hour for the US East (Ohio) region.
 |-----------------|-------|--------------|------|------------|------------|
 | ml.g5.16xlarge  | 64    | 256         | 1    | 24 GB      | $5.12      |
 
+## GPU Instances (G6)
+
+| Instance Type    | vCPUs | Memory (GiB) | GPUs | GPU Memory | Price/Hour |
+|-----------------|-------|--------------|------|------------|------------|
+| ml.g6.24xlarge  | 96    | 384         | 4    | 96 GB      | $7.344     |
+
 ## GPU Instances (P3)
 
 | Instance Type    | vCPUs | Memory (GiB) | GPUs | GPU Memory | Price/Hour |

@@ -21,6 +21,9 @@ The following limits apply to all competition participants:
   - ml.g4dn.2xlarge ($0.94/hour)
     - 8 vCPU, 32 GiB memory, 1 NVIDIA T4 GPU (16GB GPU RAM)
     - Good balance of CPU/GPU for mixed workloads
+  - ml.g6.24xlarge ($7.344/hour)
+    - 96 vCPU, 384 GiB memory, 4 NVIDIA A10G GPUs (96GB total GPU RAM)
+    - High performance for large-scale training
 
 Note: Spot instances are available at up to 70% discount from these prices.
 
