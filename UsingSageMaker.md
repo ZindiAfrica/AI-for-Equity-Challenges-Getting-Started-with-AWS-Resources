@@ -54,6 +54,7 @@ Each user has a private Amazon Elastic Container Registry (ECR) repository for s
 1. Your repository is named: `<username>-workspace`
 2. Access via [ECR Console](https://us-east-2.console.aws.amazon.com/ecr/repositories?region=us-east-2)
 3. Full repository URL: `<account-id>.dkr.ecr.us-east-2.amazonaws.com/<username>-workspace`
+4. See [ECR Paths Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg-ecr-paths/ecr-us-east-2.html) for available container images
 
 To push images:
 ```bash
