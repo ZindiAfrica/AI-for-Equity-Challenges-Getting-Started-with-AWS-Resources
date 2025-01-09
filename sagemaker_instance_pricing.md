@@ -41,12 +41,5 @@ All prices are in USD per hour for the US East (Ohio) region.
 |-----------------|-------|--------------|------|------------|------------|
 | ml.p3.2xlarge   | 8     | 61          | 1    | 16 GB      | $3.825     |
 | ml.p3.8xlarge   | 32    | 244         | 4    | 64 GB      | $14.688    |
-| ml.p3.16xlarge  | 64    | 488         | 8    | 128 GB     | $28.152    |
-
-## GPU Instances (P4)
-
-| Instance Type     | vCPUs | Memory (GiB) | GPUs | GPU Memory | Price/Hour |
-|------------------|-------|--------------|------|------------|------------|
-| ml.p4d.24xlarge  | 96    | 1152        | 8    | 320 GB     | $37.6885   |
 
 Note: All prices are for On-Demand instances. Spot instances may be available at significant discounts.
