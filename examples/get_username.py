@@ -28,7 +28,7 @@ def get_username_from_notebook():
 def get_bucket_name():
     """Get the user's S3 bucket name"""
     username = get_username_from_notebook()
-    return f"{username}-bucket"
+    return f"{username}-team-bucket"
 
 def get_team_tag():
     """Get the team tag value for resources"""
