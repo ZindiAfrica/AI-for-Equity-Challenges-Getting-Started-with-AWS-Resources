@@ -7,48 +7,33 @@ The following limits apply to all competition participants:
 - Maximum of 20 vCPUs across all resources
 - Instance types limited to:
 
-### General Purpose (T3/T3A)
-  - ml.t3.medium ($0.05/hour on-demand, $0.015/hr spot)
-    - 2 vCPU, 4 GiB memory
-    - Best for development and testing
-  - ml.t3.large ($0.10/hour on-demand, $0.03/hr spot)
+### General Purpose (M5)
+  - ml.m5.large ($0.115/hour on-demand, $0.035/hr spot)
     - 2 vCPU, 8 GiB memory
-  - ml.t3.xlarge ($0.20/hour on-demand, $0.06/hr spot)
+  - ml.m5.xlarge ($0.23/hour on-demand, $0.069/hr spot)
     - 4 vCPU, 16 GiB memory
-  - ml.t3a.xlarge ($0.18/hour on-demand, $0.054/hr spot)
-    - 4 vCPU, 16 GiB memory (AMD)
-  - ml.t3.2xlarge ($0.40/hour on-demand, $0.12/hr spot)
+  - ml.m5.2xlarge ($0.46/hour on-demand, $0.138/hr spot)
     - 8 vCPU, 32 GiB memory
-  - ml.t3a.2xlarge ($0.36/hour on-demand, $0.108/hr spot)
-    - 8 vCPU, 32 GiB memory (AMD)
+  - ml.m5.4xlarge ($0.92/hour on-demand, $0.276/hr spot)
+    - 16 vCPU, 64 GiB memory
 
-### Memory Optimized (R5/R5A)
-  - ml.r5.large ($0.15/hour on-demand, $0.045/hr spot)
-    - 2 vCPU, 16 GiB memory
-  - ml.r5.xlarge ($0.30/hour on-demand, $0.09/hr spot)
-    - 4 vCPU, 32 GiB memory
+### Memory Optimized (R5)
   - ml.r5.2xlarge ($0.60/hour on-demand, $0.18/hr spot)
     - 8 vCPU, 64 GiB memory
-  - ml.r5a.2xlarge ($0.54/hour on-demand, $0.162/hr spot)
-    - 8 vCPU, 64 GiB memory (AMD)
   - ml.r5.4xlarge ($1.20/hour on-demand, $0.36/hr spot)
     - 16 vCPU, 128 GiB memory
+  - ml.r5.8xlarge ($2.40/hour on-demand, $0.72/hr spot)
+    - 32 vCPU, 256 GiB memory
 
-### GPU Instances (G4DN/G4AD)
-  - ml.g4dn.xlarge ($0.736/hour on-demand, $0.221/hr spot)
-    - 4 vCPU, 16 GiB memory, 1 NVIDIA T4 GPU
-  - ml.g4dn.2xlarge ($0.90/hour on-demand, $0.27/hr spot)
-    - 8 vCPU, 32 GiB memory, 1 NVIDIA T4 GPU
+### GPU Instances (G4DN)
   - ml.g4dn.4xlarge ($1.43/hour on-demand, $0.429/hr spot)
     - 16 vCPU, 64 GiB memory, 1 NVIDIA T4 GPU
   - ml.g4dn.8xlarge ($2.72/hour on-demand, $0.816/hr spot)
     - 32 vCPU, 128 GiB memory, 1 NVIDIA T4 GPU
+  - ml.g4dn.12xlarge ($4.89/hour on-demand, $1.467/hr spot)
+    - 48 vCPU, 192 GiB memory, 4 NVIDIA T4 GPUs
 
-### High-Performance GPU (P3)
-  - ml.p3.2xlarge ($3.06/hour on-demand, $0.918/hr spot)
-    - 8 vCPU, 61 GiB memory, 1 NVIDIA V100 GPU
-  - ml.p3.8xlarge ($12.24/hour on-demand, $3.672/hr spot)
-    - 32 vCPU, 244 GiB memory, 4 NVIDIA V100 GPUs
+Note: Additional instance types may be requested but approval will be at the organizers' discretion based on availability and requirements.
 
 Note: Spot instances can provide up to 70% cost savings compared to On-Demand pricing.
 
