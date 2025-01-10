@@ -32,8 +32,8 @@ def get_bucket_name():
 
 def get_team_tag():
     """Get the team tag value for resources"""
-    username = get_username_from_notebook() 
-    return {'Key': 'team', 'Value': username}
+    username = get_username_from_notebook()
+    return [{'Key': 'team', 'Value': username}]
 
 # Example usage:
 if __name__ == "__main__":

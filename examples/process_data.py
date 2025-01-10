@@ -37,14 +37,24 @@ def preprocess_data(df):
 def main():
     args = parse_args()
     
+    # Get team tag
+    from get_username import get_team_tag
+    tags = get_team_tag()
+    
     # Read input data
     df = pd.read_csv(args.input_path)
     
     # Apply preprocessing
     processed_df = preprocess_data(df)
     
-    # Save results
-    processed_df.to_csv(args.output_path, index=False)
+    # Save results with tags
+    s3 = boto3.client('s3')
+    s3.put_object(
+        Bucket=args.output_path.split('/')[2],
+        Key='/'.join(args.output_path.split('/')[3:]),
+        Body=processed_df.to_csv(index=False),
+        Tagging=f"team={get_team_tag()[0]['Value']}"
+    )
 
 if __name__ == "__main__":
     main()
