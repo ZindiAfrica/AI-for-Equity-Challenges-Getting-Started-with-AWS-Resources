@@ -13,7 +13,7 @@ For information about cost monitoring, budgets and resource limits, please see:
 ## Accessing Competition Data
 
 1. Navigate to **S3** in the AWS Console
-2. Each user/team has a private bucket named `<username>-bucket` (e.g., `comp-user-jvlemq-bucket`) for storing your work
+2. Each user/team has a private bucket named `<username>-team-bucket` (e.g., `comp-user-jvlemq-team-bucket`) for storing your work
 3. The competition data is available in two regions:
 
    **US East (Ohio) - Recommended**
