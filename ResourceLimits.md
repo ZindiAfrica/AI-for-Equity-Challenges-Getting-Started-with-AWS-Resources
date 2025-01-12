@@ -7,7 +7,9 @@ The following limits apply to all competition participants:
 - Maximum of 20 vCPUs across all resources
 - Instance types limited to:
 
-### General Purpose (M5)
+### SageMaker Training Instances
+
+#### General Purpose (M5)
   - ml.m5.large ($0.096/hour on-demand, $0.0288/hr spot)
     - 2 vCPU, 8 GiB memory
   - ml.m5.xlarge ($0.672/hour on-demand, $0.2016/hr spot)
@@ -17,7 +19,7 @@ The following limits apply to all competition participants:
   - ml.m5.4xlarge ($6.768/hour on-demand, $2.0304/hr spot)
     - 16 vCPU, 64 GiB memory
 
-### Memory Optimized (R5)
+#### Memory Optimized (R5)
   - ml.r5.2xlarge ($1.464/hour on-demand, $0.4392/hr spot)
     - 8 vCPU, 64 GiB memory
   - ml.r5.4xlarge ($2.928/hour on-demand, $0.8784/hr spot)
@@ -25,11 +27,21 @@ The following limits apply to all competition participants:
   - ml.r5.8xlarge ($5.856/hour on-demand, $1.7568/hr spot)
     - 32 vCPU, 256 GiB memory
 
-### GPU Instances (G4DN)
+#### GPU Instances (G4DN)
   - ml.g4dn.4xlarge ($1.204/hour on-demand, $0.3612/hr spot)
     - 16 vCPU, 64 GiB memory, 1 NVIDIA T4 GPU
   - ml.g4dn.8xlarge ($2.176/hour on-demand, $0.6528/hr spot)
     - 32 vCPU, 128 GiB memory, 1 NVIDIA T4 GPU
+
+### AWS Batch Compute Instances
+
+#### GPU Instances
+  - p3.2xlarge ($3.06/hour on-demand, $0.918/hr spot)
+    - 8 vCPU, 61 GiB memory, 1 NVIDIA V100 GPU
+  - p3.8xlarge ($12.24/hour on-demand, $3.672/hr spot) 
+    - 32 vCPU, 244 GiB memory, 4 NVIDIA V100 GPUs
+  - g4dn.2xlarge ($0.752/hour on-demand, $0.226/hr spot)
+    - 8 vCPU, 32 GiB memory, 1 NVIDIA T4 GPU
 
 Note: Additional instance types may be requested but approval will be at the organizers' discretion based on availability and requirements.
 
