@@ -27,5 +27,8 @@ This guide explains the different options and best practices for training machin
 
 Remember these limits when planning your training:
 - Maximum 20 vCPUs across all resources
-- Available instance types: ml.t3.medium, ml.t3.large, ml.p3.2xlarge, ml.p3.8xlarge, ml.g4dn.2xlarge
+- Available instance types and pricing:
+  - See [Instance Pricing Guide](./aws-pricing/instance_pricing.md) for full details
+  - Common types: ml.t3.medium, ml.t3.large, ml.p3.2xlarge, ml.p3.8xlarge, ml.g4dn.2xlarge
+  - Spot instances available for up to 70% cost savings
 - GPU instances only available in EC2-based queue

@@ -14,6 +14,9 @@
    team = <your-username>
    ```
    See [Resource Tagging Requirements](./TaggingRequirements.md) for details.
+3. **Instance Pricing**: For current pricing and instance specifications, see:
+   - [Instance Pricing Guide](./aws-pricing/instance_pricing.md)
+   - [Detailed Instance Data](./aws-pricing/instance_data.json)
 
 ## Quick Start: Opening SageMaker Studio
 

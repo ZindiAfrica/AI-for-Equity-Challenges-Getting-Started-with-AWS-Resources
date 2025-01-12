@@ -37,12 +37,14 @@ For package installation instructions, see [Package Setup Guide](./guides/Packag
    - Monitor training metrics
    - Save checkpoints regularly
    - Log experiments
+   - Use spot instances when possible (up to 70% cost savings)
 
 3. **Resource Management**
    - Monitor GPU memory usage
    - Use mixed precision training
    - Clean up unused resources
    - Schedule automatic shutdowns
+   - Choose cost-effective instance types (see aws-pricing/instance_pricing.md)
 
 ### Common ML Container Images
 
