@@ -30,8 +30,6 @@ The following limits apply to all competition participants:
     - 16 vCPU, 64 GiB memory, 1 NVIDIA T4 GPU
   - ml.g4dn.8xlarge ($2.176/hour on-demand, $0.6528/hr spot)
     - 32 vCPU, 128 GiB memory, 1 NVIDIA T4 GPU
-  - ml.g4dn.12xlarge ($3.912/hour on-demand, $1.1736/hr spot)
-    - 48 vCPU, 192 GiB memory, 4 NVIDIA T4 GPUs
 
 Note: Additional instance types may be requested but approval will be at the organizers' discretion based on availability and requirements.
 

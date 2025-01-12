@@ -25,7 +25,6 @@ All prices are in USD per hour for the US East (Ohio) region.
 |------------------|-------|--------------|------|------------|----------------|-----------|
 | ml.g4dn.4xlarge  | 16    | 64          | 1    | 16 GB      | $1.204         | $0.3612   |
 | ml.g4dn.8xlarge  | 32    | 128         | 1    | 16 GB      | $2.176         | $0.6528   |
-| ml.g4dn.12xlarge | 48    | 192         | 4    | 64 GB      | $3.912         | $1.1736   |
 
 Note: Additional instance types may be requested but approval will be at the organizers' discretion based on availability and requirements. Contact the competition organizers if you need access to other instance types for your specific use case.
 

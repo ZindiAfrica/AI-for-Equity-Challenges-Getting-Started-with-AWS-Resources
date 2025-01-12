@@ -54,39 +54,18 @@ The following container images are available in us-east-2 for ML training and in
    ```python
    # Latest PyTorch with GPU support
    pytorch_image = '763104351884.dkr.ecr.us-east-2.amazonaws.com/pytorch-training:2.0.0-gpu-py310'
-   
-   # Latest PyTorch inference
-   pytorch_inference = '763104351884.dkr.ecr.us-east-2.amazonaws.com/pytorch-inference:2.0.0-gpu-py310'
    ```
 
 2. **TensorFlow**
    ```python
    # Latest TensorFlow with GPU support
    tensorflow_image = '763104351884.dkr.ecr.us-east-2.amazonaws.com/tensorflow-training:2.12.1-gpu-py39'
-   
-   # Latest TensorFlow inference
-   tensorflow_inference = '763104351884.dkr.ecr.us-east-2.amazonaws.com/tensorflow-inference:2.12.1-gpu-py39'
    ```
 
-3. **Scikit-learn**
-   ```python
-   # Latest Scikit-learn
-   sklearn_image = '257758044811.dkr.ecr.us-east-2.amazonaws.com/sagemaker-scikit-learn:1.2-1'
-   ```
-
-4. **XGBoost**
-   ```python
-   # Latest XGBoost
-   xgboost_image = '257758044811.dkr.ecr.us-east-2.amazonaws.com/sagemaker-xgboost:1.7-1'
-   ```
-
-5. **Hugging Face**
+3. **Hugging Face**
    ```python
    # Latest Hugging Face with PyTorch
    huggingface_pytorch = '763104351884.dkr.ecr.us-east-2.amazonaws.com/huggingface-pytorch-training:4.26.0-gpu-py310'
-   
-   # Latest Hugging Face with TensorFlow
-   huggingface_tensorflow = '763104351884.dkr.ecr.us-east-2.amazonaws.com/huggingface-tensorflow-training:4.26.0-gpu-py39'
    ```
 
 Example usage with SageMaker:
