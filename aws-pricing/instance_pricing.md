@@ -24,4 +24,4 @@
 | m5.4xlarge      | m5       |     16 |            64 | Up to 10 Gigabit | 4750 Mbps       | 18,750     | N/A     | N/A               | x86_64         | Intel       |           3.1 | $6.768               | $2.030          |
 | p3.8xlarge      | p3       |     32 |           244 | 10 Gigabit       | 7000 Mbps       | 40,000     | 4x V100 | 16                | x86_64         | Intel       |           2.7 | $12.240              | $3.672          |
 
-Last updated: 2025-01-12T18:50:37.587987
+Last updated: 2025-01-12T19:08:20.121402

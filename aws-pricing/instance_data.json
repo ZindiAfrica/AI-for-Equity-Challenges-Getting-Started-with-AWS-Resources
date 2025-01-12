@@ -14,7 +14,7 @@
     "processor_info": "Intel",
     "clock_speed": 3.1,
     "family": "m5",
-    "last_updated": "2025-01-12T18:50:37.583039"
+    "last_updated": "2025-01-12T19:08:20.113959"
   },
   "m5.xlarge": {
     "vcpu": 4,
@@ -31,7 +31,7 @@
     "processor_info": "Intel",
     "clock_speed": 3.1,
     "family": "m5",
-    "last_updated": "2025-01-12T18:50:37.583116"
+    "last_updated": "2025-01-12T19:08:20.113982"
   },
   "m5.2xlarge": {
     "vcpu": 8,
@@ -48,7 +48,7 @@
     "processor_info": "Intel",
     "clock_speed": 3.1,
     "family": "m5",
-    "last_updated": "2025-01-12T18:50:37.583123"
+    "last_updated": "2025-01-12T19:08:20.113989"
   },
   "m5.4xlarge": {
     "vcpu": 16,
@@ -65,7 +65,7 @@
     "processor_info": "Intel",
     "clock_speed": 3.1,
     "family": "m5",
-    "last_updated": "2025-01-12T18:50:37.583128"
+    "last_updated": "2025-01-12T19:08:20.113994"
   },
   "m5.12xlarge": {
     "vcpu": 48,
@@ -82,7 +82,7 @@
     "processor_info": "Intel",
     "clock_speed": 3.1,
     "family": "m5",
-    "last_updated": "2025-01-12T18:44:40.965159"
+    "last_updated": "2025-01-12T19:08:20.113999"
   },
   "r5.2xlarge": {
     "vcpu": 8,
@@ -99,7 +99,7 @@
     "processor_info": "Intel",
     "clock_speed": 3.1,
     "family": "r5",
-    "last_updated": "2025-01-12T18:44:40.965163"
+    "last_updated": "2025-01-12T19:08:20.114004"
   },
   "r5.4xlarge": {
     "vcpu": 16,
@@ -116,7 +116,7 @@
     "processor_info": "Intel",
     "clock_speed": 3.1,
     "family": "r5",
-    "last_updated": "2025-01-12T18:44:40.965167"
+    "last_updated": "2025-01-12T19:08:20.114009"
   },
   "r5.8xlarge": {
     "vcpu": 32,
@@ -133,7 +133,7 @@
     "processor_info": "Intel",
     "clock_speed": 3.1,
     "family": "r5",
-    "last_updated": "2025-01-12T18:44:40.965171"
+    "last_updated": "2025-01-12T19:08:20.114014"
   },
   "g4dn.2xlarge": {
     "vcpu": 8,
@@ -150,7 +150,7 @@
     "processor_info": "Intel",
     "clock_speed": 2.5,
     "family": "g4dn",
-    "last_updated": "2025-01-12T18:44:40.965175"
+    "last_updated": "2025-01-12T19:08:20.114019"
   },
   "g4dn.4xlarge": {
     "vcpu": 16,
@@ -167,7 +167,7 @@
     "processor_info": "Intel",
     "clock_speed": 2.5,
     "family": "g4dn",
-    "last_updated": "2025-01-12T18:44:40.965178"
+    "last_updated": "2025-01-12T19:08:20.114024"
   },
   "g4dn.8xlarge": {
     "vcpu": 32,
@@ -184,7 +184,7 @@
     "processor_info": "Intel",
     "clock_speed": 2.5,
     "family": "g4dn",
-    "last_updated": "2025-01-12T18:44:40.965182"
+    "last_updated": "2025-01-12T19:08:20.114028"
   },
   "g4dn.12xlarge": {
     "vcpu": 48,
@@ -201,7 +201,7 @@
     "processor_info": "Intel",
     "clock_speed": 2.5,
     "family": "g4dn",
-    "last_updated": "2025-01-12T18:44:40.965186"
+    "last_updated": "2025-01-12T19:08:20.114033"
   },
   "g5.xlarge": {
     "vcpu": 4,
@@ -218,7 +218,7 @@
     "processor_info": "AMD",
     "clock_speed": 3.3,
     "family": "g5",
-    "last_updated": "2025-01-12T18:44:40.965190"
+    "last_updated": "2025-01-12T19:08:20.114038"
   },
   "g5.2xlarge": {
     "vcpu": 8,
@@ -235,7 +235,7 @@
     "processor_info": "AMD",
     "clock_speed": 3.3,
     "family": "g5",
-    "last_updated": "2025-01-12T18:44:40.965194"
+    "last_updated": "2025-01-12T19:08:20.114042"
   },
   "g5.4xlarge": {
     "vcpu": 16,
@@ -252,7 +252,7 @@
     "processor_info": "AMD",
     "clock_speed": 3.3,
     "family": "g5",
-    "last_updated": "2025-01-12T18:44:40.965197"
+    "last_updated": "2025-01-12T19:08:20.114047"
   },
   "t3.large": {
     "vcpu": 2,
@@ -269,7 +269,7 @@
     "processor_info": "Intel",
     "clock_speed": 2.5,
     "family": "t3",
-    "last_updated": "2025-01-12T18:44:40.965201"
+    "last_updated": "2025-01-12T19:08:20.114052"
   },
   "t3.xlarge": {
     "vcpu": 4,
@@ -286,7 +286,7 @@
     "processor_info": "Intel",
     "clock_speed": 2.5,
     "family": "t3",
-    "last_updated": "2025-01-12T18:44:40.965206"
+    "last_updated": "2025-01-12T19:08:20.114056"
   },
   "t3.2xlarge": {
     "vcpu": 8,
@@ -303,7 +303,7 @@
     "processor_info": "Intel",
     "clock_speed": 2.5,
     "family": "t3",
-    "last_updated": "2025-01-12T18:44:40.965210"
+    "last_updated": "2025-01-12T19:08:20.114061"
   },
   "m5.24xlarge": {
     "vcpu": 96,
@@ -320,7 +320,7 @@
     "processor_info": "Intel",
     "clock_speed": 3.1,
     "family": "m5",
-    "last_updated": "2025-01-12T18:44:40.965214"
+    "last_updated": "2025-01-12T19:08:20.114066"
   },
   "p3.2xlarge": {
     "vcpu": 8,
@@ -337,7 +337,7 @@
     "processor_info": "Intel",
     "clock_speed": 2.7,
     "family": "p3",
-    "last_updated": "2025-01-12T18:44:40.965217"
+    "last_updated": "2025-01-12T19:08:20.114070"
   },
   "p3.8xlarge": {
     "vcpu": 32,
@@ -354,6 +354,6 @@
     "processor_info": "Intel",
     "clock_speed": 2.7,
     "family": "p3",
-    "last_updated": "2025-01-12T18:44:40.965221"
+    "last_updated": "2025-01-12T19:08:20.114075"
   }
 }
