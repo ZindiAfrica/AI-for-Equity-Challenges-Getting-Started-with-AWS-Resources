@@ -177,7 +177,7 @@ plt.show()
 
 2. Sample Code:
    - [Example Notebooks](https://github.com/aws/amazon-sagemaker-examples)
-   - [Computer Vision Examples](https://github.com/aws/amazon-sagemaker-examples/tree/main/introduction_to_computer_vision)
+   - [Computer Vision Examples](https://github.com/aws/amazon-sagemaker-examples)
 
 3. Helpful Tools:
    - [AWS CLI](https://aws.amazon.com/cli/)
