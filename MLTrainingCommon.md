@@ -87,12 +87,13 @@ estimator = Estimator(
    - Every resource MUST be tagged with `team = <your-username>`
    - See [Resource Tagging Requirements](./TaggingRequirements.md)
 
-2. **Batch Job Queues**
-   - Three regional compute queues available:
+2. **AWS Batch Job Queues**
+   - Only these three regional compute queues are available:
      - main-compute-queue-us-east-2a
      - main-compute-queue-us-east-2b
      - main-compute-queue-us-east-2c
-   - Submit jobs to the queue in your availability zone
+   - Submit jobs to the queue matching your availability zone
+   - No other compute queues are available
 
 2. **Cost Optimization**
    - Use spot instances when possible

@@ -47,15 +47,15 @@ Note: Additional instance types may be requested but approval will be at the org
 
 Note: Spot instances can provide up to 70% cost savings compared to On-Demand pricing.
 
-## Batch Processing
+## AWS Batch Processing
 - Default job configuration:
   - Memory: 32768MB (32GB)
   - vCPUs: 8
-- Regional compute queues:
+- Available Compute Queues (Only):
   - main-compute-queue-us-east-2a
   - main-compute-queue-us-east-2b 
   - main-compute-queue-us-east-2c
-- Available instance types:
+- Available Compute Instance Types (Only):
   - p3.2xlarge
   - p3.8xlarge
   - g4dn.2xlarge
