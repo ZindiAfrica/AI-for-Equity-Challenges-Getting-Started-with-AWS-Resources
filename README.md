@@ -21,7 +21,7 @@
 - [Solving SUA Challenge](./SUAOutsmartingOutbreaksChallengeSolve.md) - Guide to solving the SUA Outsmarting Outbreaks Challenge
 
 ## Examples & Resources
-- [AWS Resources Overview](./Zindi%20AWS%20Challenges%20-%20Resources.md) - Overview of AWS resources for both challenges
+- [AWS Resources Overview](./Zindi-AWS-Challenges-Resources.md) - Overview of AWS resources for both challenges
 
 ## Images
 - [SageMaker Screenshots](./images/) - Screenshots showing how to access and use SageMaker

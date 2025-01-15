@@ -49,7 +49,7 @@ The integration allows you to:
 - View git history
 - Manage pull requests
 
-For more details, see [GitHub Integration Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-git.html)
+For more details, see [GitHub Integration Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-git-attach.html)
 
 ### Container Registry (ECR)
 Each user has a private Amazon Elastic Container Registry (ECR) repository for storing Docker images:

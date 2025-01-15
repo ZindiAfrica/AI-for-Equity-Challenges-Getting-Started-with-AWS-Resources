@@ -1,6 +1,6 @@
 # Common ML Training Guidelines
 
-For package installation instructions, see [Package Setup Guide](./guides/PackageSetup.md) and [Example Code](./examples/getUsernameExample.py).
+For package installation instructions, see [Package Setup Guide](./guides/PackageSetup.md) and [Example Code](./examples/get_username.py).
 
 ## Best Practices
 
