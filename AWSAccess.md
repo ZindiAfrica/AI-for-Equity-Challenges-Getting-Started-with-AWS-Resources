@@ -1,11 +1,9 @@
-# Quick Start Guide: Accessing AWS
+# AWS Access Guide
 
-## 1. Sign into AWS Console (Web Interface)
+## Console Access (Web Interface)
+For detailed instructions on logging into the AWS Console, see [AWS Console Login Guide](./guides/AwsConsoleLogin.md).
 
-Just visit [https://zindicomp.signin.aws.amazon.com/console](https://zindicomp.signin.aws.amazon.com/console) and sign in with your provided credentials. That's it! You're ready to use SageMaker and other AWS services.
-
-## 2. Set Up Python Access (Optional)
-
+## Python SDK Access
 If you want to access AWS from Python code (like in a Jupyter notebook), add this to your notebook:
 
 ```python
@@ -18,8 +16,7 @@ sagemaker = boto3.client('sagemaker')
 
 The credentials are already set up in your SageMaker environment - no extra configuration needed!
 
-## 3. Command Line Access (Optional)
-
+## Command Line Access (Optional)
 If you need to use the AWS command line (uncommon for this competition), run:
 
 ```bash
