@@ -41,6 +41,12 @@ def main():
     from get_username import get_team_tag
     tags = get_team_tag()
     
+    # Determine availability zone for job queue
+    session = boto3.session.Session()
+    region = session.region_name
+    az = session.client('ec2').describe_availability_zones()['AvailabilityZones'][0]['ZoneName']
+    queue = f'main-compute-queue-{az}'
+    
     # Read input data
     df = pd.read_csv(args.input_path)
     

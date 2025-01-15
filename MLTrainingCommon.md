@@ -87,6 +87,13 @@ estimator = Estimator(
    - Every resource MUST be tagged with `team = <your-username>`
    - See [Resource Tagging Requirements](./TaggingRequirements.md)
 
+2. **Batch Job Queues**
+   - Three regional compute queues available:
+     - main-compute-queue-us-east-2a
+     - main-compute-queue-us-east-2b
+     - main-compute-queue-us-east-2c
+   - Submit jobs to the queue in your availability zone
+
 2. **Cost Optimization**
    - Use spot instances when possible
    - Monitor resource usage in [Cost Dashboard](./CostMonitoring.md)
