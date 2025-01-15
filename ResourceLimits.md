@@ -51,6 +51,10 @@ Note: Spot instances can provide up to 70% cost savings compared to On-Demand pr
 - Default job configuration:
   - Memory: 32768MB (32GB)
   - vCPUs: 8
+- Regional compute queues:
+  - main-compute-queue-us-east-2a
+  - main-compute-queue-us-east-2b 
+  - main-compute-queue-us-east-2c
 - Available instance types:
   - p3.2xlarge
   - p3.8xlarge
