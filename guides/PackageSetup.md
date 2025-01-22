@@ -1,6 +1,7 @@
 # Setting Up Required Packages
 
 ## Core ML Packages
+
 ```python
 # Install essential packages
 !pip install -U pip
@@ -21,6 +22,7 @@
 ```
 
 ## Image Processing Packages
+
 ```python
 # For image-based tasks
 !pip install \
@@ -30,6 +32,7 @@
 ```
 
 ## Geospatial Packages
+
 ```python
 # For geospatial data
 !pip install \

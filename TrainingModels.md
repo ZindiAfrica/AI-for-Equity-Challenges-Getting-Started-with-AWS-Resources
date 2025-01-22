@@ -26,6 +26,7 @@ This guide explains the different options and best practices for training machin
 ## Resource Limits
 
 Remember these limits when planning your training:
+
 - Maximum 20 vCPUs across all resources
 - Available instance types and pricing:
   - See [Instance Pricing Guide](./aws-pricing/instance_pricing.md) for full details

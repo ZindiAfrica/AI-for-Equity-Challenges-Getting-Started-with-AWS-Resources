@@ -4,9 +4,11 @@
 
 1. **Region**: All resources MUST be in **US East (Ohio) / us-east-2**
 2. **Resource Tagging**: Every resource MUST be tagged with:
+
    ```
    team = <your-username>
    ```
+
    See [Resource Tagging Requirements](./TaggingRequirements.md) for details.
 
 ## Accessing the Cost Dashboard
@@ -23,7 +25,9 @@
 ## Budget Alerts
 
 ### Configuring Alerts
+
 To configure budget alerts and email notifications:
+
 1. Navigate to the AWS Budgets console.
 2. Create a new budget or select an existing one.
 3. Set alert thresholds (e.g., 80% and 100% of the budget).
@@ -34,9 +38,11 @@ You can check your remaining AWS credits at any time by visiting:
 (Replace <YOUR-USERNAME> with your assigned username)
 
 You will receive email notifications when:
+
 - Your usage reaches 80% ($320) of the $400 budget
 - Your usage reaches 100% ($400) of the budget
 
 When the budget is exceeded:
+
 - Running resources will be automatically stopped
 - New resource creation will be blocked

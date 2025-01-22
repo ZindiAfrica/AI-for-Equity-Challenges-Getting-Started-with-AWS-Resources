@@ -1,6 +1,7 @@
 # AWS Console Login Instructions
 
 ## Quick Access
+
 The easiest way to access the AWS Console is to use this direct link:
 [https://zindicomp.signin.aws.amazon.com](https://zindicomp.signin.aws.amazon.com)
 
@@ -10,7 +11,7 @@ This link will automatically fill in the account ID (869935100875).
 
 ## Login Details
 
-1. **Account ID**: Either enter `869935100875` or `zindicomp` 
+1. **Account ID**: Either enter `869935100875` or `zindicomp`
 2. **IAM Username**: Your competition username in the format `comp-user-XXXXXX`
 3. **Password**: Your assigned password
 
@@ -29,6 +30,7 @@ Once logged in, you'll see the AWS Console. To access SageMaker:
 ## Troubleshooting
 
 If you cannot log in:
+
 1. Double check your username format: `comp-user-XXXXXX`
 2. Verify you're using the correct account ID: `869935100875` or `zindicomp`
 3. If still having issues, contact Zindi support to verify your credentials

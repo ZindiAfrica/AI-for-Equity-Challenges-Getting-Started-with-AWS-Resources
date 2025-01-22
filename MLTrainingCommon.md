@@ -5,13 +5,16 @@ For package installation instructions, see [Package Setup Guide](./guides/Packag
 ## Best Practices
 
 ### Data Management
+
 1. **Data Organization**
+
    - Keep raw data in separate S3 bucket/folder
    - Create processed data versions with clear naming
    - Document data preprocessing steps
    - Use data versioning when possible
 
 2. **Efficient Data Loading**
+
    - Use data streaming for large datasets
    - Implement proper batching
    - Cache frequently used data
@@ -24,13 +27,16 @@ For package installation instructions, see [Package Setup Guide](./guides/Packag
    - Test data pipeline components
 
 ### Model Development
+
 1. **Code Organization**
+
    - Use modular code structure
    - Create reusable components
    - Document functions and classes
    - Use version control
 
 2. **Training Best Practices**
+
    - Start with small dataset for testing
    - Implement early stopping
    - Use learning rate scheduling
@@ -51,24 +57,28 @@ For package installation instructions, see [Package Setup Guide](./guides/Packag
 The following container images are available in us-east-2 for ML training and inference:
 
 1. **PyTorch**
+
    ```python
    # Latest PyTorch with GPU support
    pytorch_image = '763104351884.dkr.ecr.us-east-2.amazonaws.com/pytorch-training:2.0.0-gpu-py310'
    ```
 
 2. **TensorFlow**
+
    ```python
    # Latest TensorFlow with GPU support
    tensorflow_image = '763104351884.dkr.ecr.us-east-2.amazonaws.com/tensorflow-training:2.12.1-gpu-py39'
    ```
 
 3. **Hugging Face**
+
    ```python
    # Latest Hugging Face with PyTorch
    huggingface_pytorch = '763104351884.dkr.ecr.us-east-2.amazonaws.com/huggingface-pytorch-training:4.26.0-gpu-py310'
    ```
 
 Example usage with SageMaker:
+
 ```python
 import sagemaker
 from sagemaker.estimator import Estimator
@@ -82,12 +92,15 @@ estimator = Estimator(
 ```
 
 ### AWS Resource Usage
+
 1. **Region & Tagging Requirements**
+
    - All resources MUST be in **US East (Ohio) / us-east-2**
    - Every resource MUST be tagged with `team = <your-username>`
    - See [Resource Tagging Requirements](./TaggingRequirements.md)
 
 2. **AWS Batch Job Queues**
+
    - Only these three regional compute queues are available:
      - main-compute-queue-us-east-2a
      - main-compute-queue-us-east-2b
@@ -95,14 +108,15 @@ estimator = Estimator(
    - Submit jobs to the queue matching your availability zone
    - No other compute queues are available
 
-2. **Cost Optimization**
+3. **Cost Optimization**
+
    - Use spot instances when possible
    - Monitor resource usage in [Cost Dashboard](./CostMonitoring.md)
    - Set up budget alerts
    - Clean up unused endpoints
    - Stay within [Resource Limits](./ResourceLimits.md)
 
-2. **Storage Management**
+4. **Storage Management**
    - Use appropriate storage classes
    - Clean up old checkpoints
    - Compress data when possible
@@ -111,7 +125,9 @@ estimator = Estimator(
 ## CloudWatch Monitoring
 
 ### Setting Up Monitoring
+
 1. Create custom dashboards for:
+
    - Training metrics
    - Resource utilization
    - Cost tracking
@@ -124,7 +140,9 @@ estimator = Estimator(
    - Cost thresholds
 
 ### Accessing Logs
+
 1. **Console Access**
+
    - Navigate to CloudWatch
    - Select Log groups
    - Filter by resource type:
@@ -133,6 +151,7 @@ estimator = Estimator(
      - `/aws/sagemaker/Endpoints/<endpoint-name>`
 
 2. **CLI Access**
+
 ```bash
 # Get recent logs
 aws logs get-log-events \
@@ -148,7 +167,9 @@ aws logs filter-log-events \
 ## Troubleshooting Guide
 
 ### Environment Issues
+
 1. **Wrong Region**
+
    - Verify region is us-east-2 (Ohio)
    - Check AWS_DEFAULT_REGION
    - Update boto3 session region
@@ -160,7 +181,9 @@ aws logs filter-log-events \
    - Review dependency conflicts
 
 ### Training Problems
+
 1. **Memory Issues**
+
    - Monitor memory usage
    - Reduce batch size
    - Enable gradient checkpointing
@@ -168,6 +191,7 @@ aws logs filter-log-events \
    - Clean up unused variables
 
 2. **Performance Issues**
+
    - Profile code execution
    - Optimize data loading
    - Use appropriate instance types
@@ -182,7 +206,9 @@ aws logs filter-log-events \
    - Test simpler models first
 
 ### Access Issues
+
 1. **Permission Errors**
+
    - Verify IAM roles
    - Check bucket policies
    - Review security groups
@@ -196,7 +222,9 @@ aws logs filter-log-events \
    - Monitor network metrics
 
 ### Resource Management
+
 1. **Quota Limits**
+
    - Monitor service quotas
    - Request limit increases
    - Use resource scheduling
@@ -212,12 +240,14 @@ aws logs filter-log-events \
 ## Getting Help
 
 1. **Documentation**
+
    - AWS Documentation
    - SageMaker Examples
    - Framework Guides
    - Community Resources
 
 2. **Support Channels**
+
    - AWS Support
    - Competition Forums
    - GitHub Issues

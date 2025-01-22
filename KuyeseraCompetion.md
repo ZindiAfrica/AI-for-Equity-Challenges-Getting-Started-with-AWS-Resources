@@ -21,6 +21,7 @@ Your mission is to develop a machine learning model to identify house locations 
 Data is sourced from the **Amazon Sustainability Data Initiative (ASDI)**, Amazon’s tech-for-good program supporting climate-related research. This challenge is one of two winning projects of the **AI For Equity Challenge**, in partnership with IRCAI and AWS.
 
 ### Supporting Partners
+
 - **AWS**: World-leading cloud technologies for sustainability-related research.
 - **IRCAI**: Focused on AI solutions for Sustainable Development Goals (SDGs).
 - **Kuyesera AI Lab**: AI research at Malawi University of Business and Applied Sciences.
@@ -33,6 +34,7 @@ The competition's evaluation metric is **Mean Absolute Error**.
 Submission files must include two columns: `id` and `target`.
 
 Each image is classified into four categories:
+
 1. Destroyed
 2. Major Damage
 3. Minor Damage
@@ -40,12 +42,12 @@ Each image is classified into four categories:
 
 Example submission format:
 
-| id                                    | target |
-|---------------------------------------|--------|
-| malawi-cyclone_00000001_X_destroyed   | 0      |
-| malawi-cyclone_00000001_X_major_damage| 1      |
-| malawi-cyclone_00000001_X_minor_damage| 0      |
-| malawi-cyclone_00000001_X_no_damage   | 5      |
+| id                                     | target |
+| -------------------------------------- | ------ |
+| malawi-cyclone_00000001_X_destroyed    | 0      |
+| malawi-cyclone_00000001_X_major_damage | 1      |
+| malawi-cyclone_00000001_X_minor_damage | 0      |
+| malawi-cyclone_00000001_X_no_damage    | 5      |
 
 ---
 

@@ -10,7 +10,7 @@ The objective of this challenge is to develop a machine learning model that can 
 
 The improved predictive capability provided by your models will enable governments and health organisations to implement timely, targeted interventions and optimise resource allocation, ultimately reducing disease incidence and enhancing public health resilience.
 
-*This is one of two winning projects supported by the [AI For Equity Challenge](https://zindi.africa/partner/aws-ai-for-equity-challenge), in partnership with IRCAI and AWS. Sokoine University of Agriculture will have support from AWS to implement and deploy the solutions developed during this challenge.*
+_This is one of two winning projects supported by the [AI For Equity Challenge](https://zindi.africa/partner/aws-ai-for-equity-challenge), in partnership with IRCAI and AWS. Sokoine University of Agriculture will have support from AWS to implement and deploy the solutions developed during this challenge._
 
 ### Data
 
@@ -46,18 +46,18 @@ Your submission file needs to contain 2 columns: ID and Target
 
 Here is an example of your submission.
 
-| ID                                      | Target |
-|-----------------------------------------|--------|
-| Location\_1\_x\_KE\_1m\_2401\_Typhoid   | 10     |
-| Location\_1\_x\_ME\_1m\_2401\_Typhoid   | 2      |
+| ID                              | Target |
+| ------------------------------- | ------ |
+| Location_1_x_KE_1m_2401_Typhoid | 10     |
+| Location_1_x_ME_1m_2401_Typhoid | 2      |
 
 ### Resources
 
 ### About the organisation(s)
 
-* Organisation name
-* Organisation logo
-* Organisation paragraph/blurb
+- Organisation name
+- Organisation logo
+- Organisation paragraph/blurb
 
 **About Sokoine University of Agriculture ([https://www.sua.ac.tz/](https://www.sua.ac.tz/))**
 
@@ -65,7 +65,7 @@ Sokoine University of Agriculture (SUA) is a public University based in Morogoro
 
 SUA is best known for offering courses and programmes widely in the fields of Agriculture, Veterinary Science, Forestry, Animal Science, Wildlife Management, Tourism Management, Environmental Science, Food Science, Natural Resources, Nutrition, Rural Development, since its establishment.
 
-**About AWS ([https://aws.amazon.com/?nc2=h\_lg](https://aws.amazon.com/?nc2=h_lg))**
+**About AWS ([https://aws.amazon.com/?nc2=h_lg](https://aws.amazon.com/?nc2=h_lg))**
 
 Since launching in 2006, Amazon Web Services has been providing world-leading cloud technologies that help any organization and any individual build solutions to transform industries, communities, and lives for the better.
 
@@ -179,21 +179,21 @@ You may only use tools available to everyone i.e. no paid services or free trial
 
 **Documentation**
 
-* A README markdown file is required
-* It should cover:
-  * How to set up folders and where each file is saved
-  * Order in which to run code
-  * Explanations of features used
-  * Environment for the code to be run (conda environment.yml file or an environment.txt file)
-  * Hardware needed (e.g. Google Colab or the specifications of your local machine)
-  * Expected run time for each notebook. This will be useful to the review team for time and resource allocation.
+- A README markdown file is required
+- It should cover:
+  - How to set up folders and where each file is saved
+  - Order in which to run code
+  - Explanations of features used
+  - Environment for the code to be run (conda environment.yml file or an environment.txt file)
+  - Hardware needed (e.g. Google Colab or the specifications of your local machine)
+  - Expected run time for each notebook. This will be useful to the review team for time and resource allocation.
 
 Your code needs to run properly, code reviewers do not have time to debug code. If code does not run easily you will be bumped down the leaderboard.
 
 **Consequences of breaking any rules of the challenge or submission guidelines:**
 
-* First offence: No prizes for 6 months and 2000 points will be removed from your profile (probation period). If you are caught cheating, all individuals involved in cheating will be disqualified from the challenge(s) you were caught in and you will be disqualified from winning any challenges for the next six months and 2000 points will be removed from your profile. If you have less than 2000 points to your profile your points will be set to 0.
-* Second offence: Banned from the platform. If you are caught for a second time your Zindi account will be disabled and you will be disqualified from winning any challenges or Zindi points using any other account.
+- First offence: No prizes for 6 months and 2000 points will be removed from your profile (probation period). If you are caught cheating, all individuals involved in cheating will be disqualified from the challenge(s) you were caught in and you will be disqualified from winning any challenges for the next six months and 2000 points will be removed from your profile. If you have less than 2000 points to your profile your points will be set to 0.
+- Second offence: Banned from the platform. If you are caught for a second time your Zindi account will be disabled and you will be disqualified from winning any challenges or Zindi points using any other account.
 
 Teams with individuals who are caught cheating will not be eligible to win prizes or points in the challenge in which the cheating occurred, regardless of the individuals’ knowledge of or participation in the offence.
 

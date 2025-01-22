@@ -5,6 +5,7 @@ This guide will walk you through solving the Kuyesera AI Disaster Damage and Dis
 ## Overview
 
 The challenge involves:
+
 1. Analyzing aerial imagery to detect damaged infrastructure
 2. Classifying damage levels in affected areas
 3. Processing large satellite image datasets
@@ -23,14 +24,16 @@ The challenge involves:
 The competition data is available in the S3 bucket: `s3://kuyesera-ai-challenge-comp/`
 
 Key datasets:
+
 - Pre-disaster aerial imagery
-- Post-disaster aerial imagery 
+- Post-disaster aerial imagery
 - Training labels for damage classification
 - Sentinel-2 satellite imagery
 
 ### 3. Basic Workflow
 
 1. **Data Preparation**
+
 ```python
 import boto3
 import sagemaker
@@ -48,6 +51,7 @@ for obj in response['Contents']:
 2. **Image Processing Pipeline**
 
 Use SageMaker Processing for heavy preprocessing:
+
 ```python
 from sagemaker.processing import ProcessingInput, ProcessingOutput, Processor
 
@@ -82,6 +86,7 @@ processor.run(
 3. **Model Training**
 
 Basic damage classification model:
+
 ```python
 from sagemaker.estimator import Estimator
 
@@ -104,6 +109,7 @@ estimator.fit({
 ### 1. Data Exploration
 
 1. Load and visualize sample images:
+
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -156,11 +162,13 @@ plt.show()
 ## Common Issues & Solutions
 
 1. **Out of Memory Errors**
+
    - Reduce batch size
    - Use data streaming
    - Optimize image loading
 
 2. **Slow Processing**
+
    - Utilize AWS Batch for preprocessing
    - Enable multi-threading
    - Use GPU instances
@@ -173,9 +181,11 @@ plt.show()
 ## Resources
 
 1. Documentation:
+
    - [SageMaker Documentation](https://docs.aws.amazon.com/sagemaker/)
 
 2. Sample Code:
+
    - [Example Notebooks](https://github.com/aws/amazon-sagemaker-examples)
    - [Computer Vision Examples](https://github.com/aws/amazon-sagemaker-examples)
    - [Documentation & Tutorials](https://sagemaker-examples.readthedocs.io/en/latest/)
@@ -191,6 +201,7 @@ plt.show()
 3. Contact support through provided channels
 
 Remember to:
+
 - Start simple and iterate
 - Test code on small datasets first
 - Monitor your AWS costs

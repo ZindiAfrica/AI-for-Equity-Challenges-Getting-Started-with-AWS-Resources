@@ -29,14 +29,18 @@ You must apply this tag to all resources you create, including but not limited t
 ## How to Apply Tags
 
 ### In SageMaker Studio
+
 When creating resources through SageMaker Studio, ensure you:
+
 1. Expand the "Tags" section in creation forms
 2. Click "Add new tag"
 3. Enter "team" as the Key
 4. Enter your username as the Value
 
 ### Using AWS CLI
+
 When using AWS CLI, add the --tags parameter:
+
 ```
 aws sagemaker create-training-job \
   --training-job-name my-training-job \
@@ -45,6 +49,7 @@ aws sagemaker create-training-job \
 ```
 
 ### Using AWS SDK
+
 When using AWS SDKs, include tags in your resource creation calls:
 
 ```python
